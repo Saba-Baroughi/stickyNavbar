@@ -13,3 +13,6 @@ document.addEventListener("scroll", function () {
     logoImg.style.height = "84px";
   }
 });
+function showdataId(event) {
+  console.log(event.target.dataset);
+}
